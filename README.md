@@ -24,5 +24,5 @@
 ---------
 ## CP1 Project
 #### 📌 기대수명에 대한 데이터를 분석하고 기대수명을 예측하는 프로젝트입니다.
-* Data Analysis 프로젝트로서 기대수명에 어떤 요소들이 어떻게 영향을 미치고 있는지 분석하였고, 이후 기대수명에 대해 ML 모델로 예측하였습니다.
+* 데이터 분석 프로젝트로 기대수명에 어떤 요소들이 어떻게 영향을 미치고 있는지 분석하였고, 이후 기대수명에 대해 ML 모델로 예측하였습니다.
 * data link: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
