@@ -26,3 +26,8 @@
 #### 📌 기대수명에 대한 데이터를 분석하고 기대수명을 예측하는 프로젝트입니다.
 * 데이터 분석 프로젝트로 기대수명에 어떤 요소들이 어떻게 영향을 미치고 있는지 분석하였고, 이후 기대수명에 대해 ML 모델로 예측하였습니다.
 * data link: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
+------------
+## CP2 Project
+#### 📌 이커머스 데이터 분석 및 추천시스템 모델링 프로젝트입니다.
+* 이커머스 10월 데이터에 대한 분석 결과를 토대로 매출액 증대를 위한 Action plan을 도출하였으며 유저에게 추천시스템을 제공하기 위해 추천 모델을 구현하였습니다.
+* data link: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv
