@@ -34,11 +34,14 @@
 
 #### 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
 - 분석 결과
+
     - 시각화 자료
-    /Users/minky/Desktop/AIB_Project/Section1/다운로드 (1).png
-    /Users/minky/Desktop/AIB_Project/Section1/다운로드 (2).png
-    /Users/minky/Desktop/AIB_Project/Section1/다운로드.png
-    /Users/minky/Desktop/AIB_Project/Section1/플랫폼.png
+
+    ![다운로드](https://user-images.githubusercontent.com/93141881/173243595-121e1e3a-25fb-4f09-afcd-bfa1f7b8fa75.png)
+    ![다운로드 (1)](https://user-images.githubusercontent.com/93141881/173243601-6b13ea31-f2cb-4c13-9a71-92c47c05eca8.png)
+    ![다운로드 (2)](https://user-images.githubusercontent.com/93141881/173243610-116f1652-f69d-4cc6-843e-e61c7c7bd458.png)
+    ![플랫폼](https://user-images.githubusercontent.com/93141881/173243615-35900875-81c9-4a10-a88e-1b6094b12cb7.png)
+
 
     - 자료에 대한 해석: 최근 5년간 일본 지역을 제외한 지역의 장르 선호도는 상당히 유사함 + 가장 많은 대중이 선호하는 플랫폼은 `PS4`
 
