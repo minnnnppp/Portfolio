@@ -1,5 +1,5 @@
-## 주제: ML 모델을 사용해 데이터를 토대로 소득이 $50000 넘는지 예측해보기
-
+## 주제: 신경망 모델을 사용 financial sentiment analysis 
+ 
 #### 프로젝트 배경(선정 이유)
 - 기술적 이유(기술 스택, 분석 스킬): colab 환경, python을 기반으로 신경망 모델을 사용한 감성 예측 가능
   - 기술 스택: `colab`, `python`, `tensorflow`, `pytorch`, `matplotlib`, `seaborn`, `sklearn`, `transformers`, `nltk`, `LabelEncoder`, `Tokenizer`
