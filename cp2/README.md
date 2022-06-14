@@ -5,7 +5,7 @@
     - 기술 스택: `colab`, `python`, `pyarrow`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `scipy`, `gensim`, `collections`
 - 개인적 이유(개인 목표, 커리어 관련): section 1에서 배운 통계 검정을 적용해볼 수 있으며, 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문에 선정
 
-#### 데이터셋과 환경: 
+#### 데이터셋과 환경: https://drive.google.com/file/d/1snDWodcA6xnToF88evOI44A-T1aOUBl3/view?usp=sharing
 - 컬럼
     - `event_time`: 이벤트(=유저의 행동)가 일어난 시간
     - `event_type`: 이벤트 타입
