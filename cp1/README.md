@@ -60,15 +60,14 @@
     <img width="365" alt="image" src="https://user-images.githubusercontent.com/93141881/173583638-e126e4ee-90b8-43b0-b9c0-ed1098672f3e.png">
     
     ![image](https://user-images.githubusercontent.com/93141881/173590439-0a1bb5a0-2256-4746-a564-89149d95cf5b.png)
-
-
-
+    
+    
 
     - 자료에 대한 해석: 
-            - 성능이 가장 뛰어났던 randomforest 모델에서 특성 중요도를 도출
-                - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
+        - 성능이 가장 뛰어났던 randomforest 모델에서 특성 중요도를 도출
+            - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
         
-        👉🏼 특성 중요도와 시각화 자료를 토대로 기대 수명에는 아동의 건강과 의료기술의 발전이 지대한 영향을 미치고 있음을 파악함
+        - 특성 중요도와 시각화 자료를 토대로 기대 수명에는 아동의 건강과 의료기술의 발전이 지대한 영향을 미치고 있음을 파악함
 
     - Action Plan: 
             - 다양한 질병으로부터 선제적 보호 조치를 받고 있지 못하는 아동들에게 범국가적 차원의 조치가 필요
