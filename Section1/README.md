@@ -4,7 +4,7 @@
 - 기술적 이유(기술 스택, 분석 스킬): colab 환경, python을 사용해 데이터 분석을 진행할 수 있음
 - 개인적 이유(개인 목표, 커리어 관련): section 1에서 배운 통계 검정을 적용해볼 수 있으며, 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문에 선정
 
-#### 데이터셋: 
+#### 데이터셋: https://drive.google.com/file/d/1XnswYGySzrdUzuBst0L63XuWuMRJbLvH/view?usp=sharing
 - 컬럼
     - `Name`: 게임명
     - `Platform`: 게임 플랫폼
