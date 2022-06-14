@@ -70,5 +70,8 @@
     - pdp plot: 
         - 자본이 많을수록, 교육수준이 높을수록, 결혼한 사람일수록 소득이 $50000를 넘을 확률이 높음
         - 20~50대에서는 나이가 많을수록, 반대로 50대 이상에서는 나이가 적을수록 소득이 $50000를 넘을 확률이 커짐
+    - shap plot: 
+        - 결혼 관계(marital status), 나이(age), 교육수준(eduacational-num), 자본총합계(total capital), 자본이익(capital-gain) 모두 특성값이 작을수록 `소득 > $50000` 에 negative한 영향을 주고, 특성값이 클수록 positive한 영향을 줌
+ 
 
 
