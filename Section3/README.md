@@ -2,6 +2,7 @@
 
 #### 프로젝트 배경(선정 이유)
 - 기술적 이유(기술 스택, 분석 스킬): colab 환경, python, metabase, flask를 활용해 웹 어플리케이션 서비스를 제공할 수 있음
+  - 기술 스택: `colab`, `python`, `sqlite`, `matplotlib`, `seaborn`, `sklearn`, `OrdinalEncoder`, `Metabase`, `Flask`, `Heroku`
 - 개인적 이유(개인 목표, 커리어 관련): section3에서 배운 직접 데이터를 DB에 적재할 수 있고, 발병하기 어려운 폐암에 대해 경각심을 일깨울뿐만 아니라 폐암 조기 발병으로 인해 완치율을 높이는 데 이 서비스가 기여하길 바람
 
 #### 데이터셋: https://www.kaggle.com/h13380436001/h-lung-cancer
