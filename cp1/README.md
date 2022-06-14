@@ -1,4 +1,4 @@
-## 주제: 비디오 게임 데이터와 다음 분기에 출시해야 할 비디오 게임에 대한 분석
+## 주제: 국가별 기대수명에 대한 분석 및 예측 모델링
 
 #### 프로젝트 배경(선정 이유)
 - 기술적 이유(기술 스택, 분석 스킬): colab 환경, python을 사용해 데이터 분석을 진행할 수 있음
@@ -42,17 +42,37 @@
       3. 건강을 위한 지출이 증가할수록 기대수명은 늘어날 것이다.
 
 - 문제: 나라별 기대수명 예측하기
-
+- 모델: Linear Regression, Ridge Regression, Random Forest, XGBoost 사용 
+    - 평가지표로 R2 score(결정계수) 사용
 
 #### 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
 - 분석 결과
 
     - 시각화 자료
+    <img width="861" alt="image" src="https://user-images.githubusercontent.com/93141881/173583551-de8e5c22-967e-4770-86f8-b5315c60021a.png">
     
+    <img width="570" alt="image" src="https://user-images.githubusercontent.com/93141881/173583299-ac154c36-df34-41b6-954e-2df4b45c8999.png">
+
+    <img width="369" alt="image" src="https://user-images.githubusercontent.com/93141881/173583750-b6e5a16b-bc71-4c8c-bb29-95787c24ffd2.png">
+    
+    <img width="393" alt="image" src="https://user-images.githubusercontent.com/93141881/173583610-32570224-cbaf-42e8-8fe3-66a8367278fc.png">
+    
+    <img width="365" alt="image" src="https://user-images.githubusercontent.com/93141881/173583638-e126e4ee-90b8-43b0-b9c0-ed1098672f3e.png">
+    
+    ![image](https://user-images.githubusercontent.com/93141881/173590439-0a1bb5a0-2256-4746-a564-89149d95cf5b.png)
 
 
-    - 자료에 대한 해석: 최근 5년간 일본 지역을 제외한 지역의 장르 선호도는 상당히 유사함 + 가장 많은 대중이 선호하는 플랫폼은 `PS4`
+    - 자료에 대한 해석: 
+            - 성능이 가장 뛰어났던 randomforest 모델에서 특성 중요도를 도출
+                - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
+            - 특성 중요도와 시각화 자료를 토대로 기대 수명에는 아동의 건강과 의료기술의 발전이 지대한 영향을 미치고 있음을 파악함
 
-    - Action Plan: 북미/유럽/기타 지역이 선호하는 `Shooter/Sports/Action` 장르의 `PS5` 플랫폼인 게임을 출시해애 함
-
+    - Action Plan: 
+            - 다양한 질병으로부터 선제적 보호 조치를 받고 있지 못하는 아동들에게 범국가적 차원의 조치가 필요
+            - 선진화를 통해 건강한 생활습관 및 위생 관념 정립을 교육을 통해 이루어져야 할 것
+            
 - 예측 모델링 결과
+    - Linear Regression: 0.8529984574582457
+    - Ridge Regression: 0.8529984574582457
+    - **Random Forest Regressor: 0.9642667362864851**
+    - XGBoost Regressor:  0.9610947119687804
