@@ -72,7 +72,6 @@
     
     <img width="648" alt="image" src="https://user-images.githubusercontent.com/93141881/173605433-9dd612bd-dd5f-4b4d-b711-ae9a17f647cc.png">
 
-
     - 자료에 대한 해석: 
         - 재구매율이 낮고, view에서 장바구니로의 전환율이 낮음
         - 기존 고객의 총 구매액과 1인당 평균 구매액이 신규 고객보다 더 큼
