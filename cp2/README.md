@@ -51,9 +51,9 @@
 
 - 모델: 
     - Baseline Model로는 이벤트가 가장 많은 상위 20개의 상품을 일괄적으로 추천하는 모델을 설정 
-    - 성능 개선 모델: TF-IDF와 Word2Vec을 사용한 Content-Based model 사용 
-        1. TF-IDF을 사용한 Content-Based model: 각 상품의 메타정보(category_code, brand 등)를 활용하여 cosine 유사도를 계산해 유사도가 높은 순으로 유저별 20개의 상품 추천
-        2. Word2Vec을 사용한 Content-Based model: doc2vec를 사용해 각 상품의 product_id와 category_code 벡터화하고, 상품별 유사도를 기준으로 유저가 본 상품과 연관성이 높은 20개의 상품 추천
+    - 성능 개선 모델: `TF-IDF`와 `Word2Vec`을 사용한 `content-based` model 사용 
+        1. `TF-IDF`을 사용한 Content-Based model: 각 상품의 메타정보(category_code, brand 등)를 활용하여 `cosine` 유사도를 계산해 유사도가 높은 순으로 유저별 20개의 상품 추천
+        2. `Word2Vec`을 사용한 Content-Based model: `doc2vec`를 사용해 각 상품의 product_id와 category_code 벡터화하고, 상품별 유사도를 기준으로 유저가 본 상품과 연관성이 높은 20개의 상품 추천
     - 평가지표로 랭킹 기반에 사용되는 `MAP@K`, `NDCG@K` 사용
 
 #### 🔍 프로젝트 결과
@@ -93,8 +93,8 @@
             
 - 예측 모델링 결과
     - Baseline model: MAP@20: 0.03470936329312459 / NDCG@20: 0.08250075125861263
-    - TF-IDF을 사용한 Content-Based model: MAP@20: 0.017148624592693736 / NDCG@20: 0.04917596785249336
-    - Word2Vec을 사용한 Content-Based model: MAP@20: 0.001588630171801049 / NDCG@20: 0.005573220462657566
+    - `TF-IDF`을 사용한 `content-based` model: MAP@20: 0.017148624592693736 / NDCG@20: 0.04917596785249336
+    - `Word2Vec`을 사용한 `content-based` model: MAP@20: 0.001588630171801049 / NDCG@20: 0.005573220462657566
 
 
-    👉🏼 TF-IDF을 사용한 Content-Based model 가장 좋은 성능을 보임
+    👉🏼 TF-IDF을 사용한 `content-based` model 가장 좋은 성능을 보임
