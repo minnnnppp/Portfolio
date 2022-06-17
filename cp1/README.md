@@ -43,7 +43,7 @@
       2. 국가의 선진화 정도가 높아질수록 기대수명이 증가할 것이다.
       3. 건강을 위한 지출이 증가할수록 기대수명은 늘어날 것이다.
 
-- 문제: 나라별 기대수명 예측하기
+- 문제: 나라별 기대수명 예측하는 ML 모델링 
 - 모델: Linear Regression, Ridge Regression, Random Forest, XGBoost 사용 
     - 평가지표로 R2 score(결정계수) 사용
 
