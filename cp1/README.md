@@ -1,11 +1,11 @@
 ## 주제: 국가별 기대수명에 대한 분석 및 예측 모델링
 
-#### 프로젝트 배경(선정 이유)
+#### 🔍 프로젝트 배경(선정 이유)
 - 기술적 이유(기술 스택, 분석 스킬): jupyter notebook 환경, python을 사용해 데이터 분석을 진행할 수 있음
     - 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
 - 개인적 이유(개인 목표, 커리어 관련): section 1에서 배운 통계 검정을 적용해볼 수 있으며, 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문에 선정
 
-#### 데이터셋: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
+#### 🔍 데이터셋: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
 - 컬럼
     - `Country`: 국가
     - `Year`: 연도
@@ -30,7 +30,7 @@
     - `Income composition of resources`: HDI(각국의 인간 발전 정도와 선진화 정도를 평가한 지수)
     - `Schooling`: 교육수준
 
-#### 프로젝트 방법
+#### 🔍 프로젝트 방법
 - 전처리: 
     - 결측치는 각 년도별로 보간하여 처리함
     - 이상치는 `winsorization`으로 처리
@@ -47,7 +47,7 @@
 - 모델: Linear Regression, Ridge Regression, Random Forest, XGBoost 사용 
     - 평가지표로 R2 score(결정계수) 사용
 
-#### 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
+#### 🔍 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
 - 분석 결과
 
     - 시각화 자료
