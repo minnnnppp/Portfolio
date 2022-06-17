@@ -1,11 +1,21 @@
 ## 주제: Ecommerce 데이터 분석 및 추천 모델링
 
-#### 프로젝트 배경(선정 이유)
+#### 🔍 프로젝트 배경(선정 이유)
 - 기술적 이유(기술 스택, 분석 스킬): colab 환경, python을 사용해 데이터 분석을 진행할 수 있음
     - 기술 스택: `colab`, `python`, `pyarrow`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `scipy`, `gensim`, `collections`
 - 개인적 이유(개인 목표, 커리어 관련): section 1에서 배운 통계 검정을 적용해볼 수 있으며, 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문에 선정
 
-#### 데이터셋과 환경: https://drive.google.com/file/d/1snDWodcA6xnToF88evOI44A-T1aOUBl3/view?usp=sharing
+#### 🔍 팀 내 수행한 역할
+- 박민경
+    - EDA 및 가설검정, Action plan 관련 조사 진행 
+    - surprise 패키지 이용한 모델 & LightFM 구현 시도
+    - word2vec 사용한 content-based 모델 구현
+- 정호영
+    - EDA 및 Funnel/Cohort분석, Action plan 관련조사진행
+    - 추천시스템:baselinemodel및TF-IDF사용한content-based모델구현
+
+
+#### 🔍 데이터셋과 환경: https://drive.google.com/file/d/1snDWodcA6xnToF88evOI44A-T1aOUBl3/view?usp=sharing
 - 컬럼
     - `event_time`: 이벤트(=유저의 행동)가 일어난 시간
     - `event_type`: 이벤트 타입
@@ -22,7 +32,7 @@
     - 주로 도심과 젊은 층 위주로 Ecommerce의 소비가 발생 + Ecommerce 관련 인프라가 상대적으로 부족함
     - 모바일 구매 비율이 약 65%로 상당히 높음
 
-#### 프로젝트 방법
+#### 🔍 프로젝트 방법
 - 전처리: 
     - 대용량의 데이터를 parquet 형식으로 변환해 불러옴
         - 데이터 용량 줄이기 위해 컬럼의 타입을 변환함
@@ -31,18 +41,22 @@
     - 가격이 0이하인 데이터 제거
 
 - 가설: 
-
+ 
       1. 주말/주중에 따라 구매 전환율은 차이가 날 것이다.
       2. 사이트에 오래 머물수록 구매 전환율이 더 높을 것이다.
       3. brand가 있는 상품일 경우의 평균 구매 전환율이 없는 상품일 경우보다 더 높을 것이다.
       4. categorized가 잘 되어 있지 않은 상품의 View 수는 잘 되어 있는 상품보다 더 적을 것이다.
 
-- 문제: 추천시스템 구현
-- 모델: TF-IDF와 Word2Vec을 사용한 Content-Based model 사용 
-    - Baseline Model로는 이벤트가 가장 많은 상위 20개의 상품을 일괄적으로 추천하는 모델을 설정
-    - 평가지표로 MAP@K, NDCG@K 사용
+- 문제: Action Plan 도출 및 추천시스템 구현
 
-#### 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 / 모델링 Logic에 따른 파이프라인 또는 그림 표현
+- 모델: 
+    - Baseline Model로는 이벤트가 가장 많은 상위 20개의 상품을 일괄적으로 추천하는 모델을 설정 
+    - 성능 개선 모델: TF-IDF와 Word2Vec을 사용한 Content-Based model 사용 
+        1. TF-IDF을 사용한 Content-Based model: 각 상품의 메타정보(category_code, brand 등)를 활용하여 cosine 유사도를 계산해 유사도가 높은 순으로 유저별 20개의 상품 추천
+        2. Word2Vec을 사용한 Content-Based model: doc2vec를 사용해 각 상품의 product_id와 category_code 벡터화하고, 상품별 유사도를 기준으로 유저가 본 상품과 연관성이 높은 20개의 상품 추천
+    - 평가지표로 랭킹 기반에 사용되는 `MAP@K`, `NDCG@K` 사용
+
+#### 🔍 프로젝트 결과
 - 분석 결과
 
     - 시각화 자료
