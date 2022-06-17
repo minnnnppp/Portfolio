@@ -15,7 +15,7 @@
     - baseline model 및 `TF-IDF` 사용한 `content-based` 모델 구현
 
 
-#### 🔍 데이터셋과 환경: https://drive.google.com/file/d/1snDWodcA6xnToF88evOI44A-T1aOUBl3/view?usp=sharing
+#### 🔍 데이터셋과 환경: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv
 - 컬럼
     - `event_time`: 이벤트(=유저의 행동)가 일어난 시간
     - `event_type`: 이벤트 타입
