@@ -7,12 +7,12 @@
 
 #### 🔍 팀 내 수행한 역할
 - 박민경
-    - EDA 및 가설검정, Action plan 관련 조사 진행 
-    - `surprise` 패키지 이용한 모델 & LightFM 구현 시도
-    - `word2vec` 사용한 content-based 모델 구현
+    - 데이터 분석 관련 도메인 지식 학습, EDA 및 가설검정, Action plan 도출
+    - `surprise` 패키지 이용한 모델과 `LightFM` 모델 구현 시도
+    - `word2vec` 사용한 `content-based` 모델 구현
 - 정호영
-    - EDA 및 Funnel/Cohort분석, Action plan 관련조사진행
-    - 추천시스템:baselinemodel및TF-IDF사용한content-based모델구현
+    - 데이터 분석 관련 도메인 지식 학습, EDA 및 `Funnel/Cohort` 분석, Action plan 도출
+    - baseline model 및 `TF-IDF` 사용한 `content-based` 모델 구현
 
 
 #### 🔍 데이터셋과 환경: https://drive.google.com/file/d/1snDWodcA6xnToF88evOI44A-T1aOUBl3/view?usp=sharing
