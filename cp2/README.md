@@ -37,7 +37,7 @@
 
     - 구매 상위 20위의 상품 중 약 90%가 전자 및 가전 제품임
         - 2019년 10월 판매된 아이템 중 스마트폰이 전체의 61.59%를 차지함
-    <img width="253" alt="image" src="https://user-images.githubusercontent.com/93141881/174445328-237249d9-0f56-453a-b220-8f8708ebf93f.png">
+        <img width="253" alt="image" src="https://user-images.githubusercontent.com/93141881/174445328-237249d9-0f56-453a-b220-8f8708ebf93f.png">
 
 
 - 환경
