@@ -18,7 +18,7 @@
     - `word2vec` 사용한 `content-based` 모델 구현
 - 정호영
     - 데이터 분석 관련 도메인 지식 학습, EDA 및 `Funnel/Cohort` 분석, Action plan 도출
-    - baseline model 및 `TF-IDF` 사용한 `content-based` 모델 구현
+    - `Baseline model` 및 `TF-IDF` 사용한 `Content-Based Model` 구현
 
 
 #### 🔍 데이터셋과 환경: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv
@@ -67,11 +67,17 @@
 - 분석 결과
 
     - 시각화 자료
+    <img width="556" alt="image" src="https://user-images.githubusercontent.com/93141881/174443601-bb06a71d-d3f4-4e9d-8383-2eb1e838ec66.png">
+
+    
     <img width="737" alt="image" src="https://user-images.githubusercontent.com/93141881/173604551-f89eb9f8-09d1-49a6-8b43-4c91c7c741f5.png">
     
     <img width="673" alt="image" src="https://user-images.githubusercontent.com/93141881/173604618-ef8506f5-2729-4023-93cd-0c46e2506805.png">
     
-    <img width="810" alt="image" src="https://user-images.githubusercontent.com/93141881/173604864-b23219e3-00d1-490e-b85f-40baeccaa87e.png">
+   <img width="369" alt="image" src="https://user-images.githubusercontent.com/93141881/174443614-0245efe7-5943-40f2-8c76-28aa4520490a.png">
+   
+   <img width="369" alt="image" src="https://user-images.githubusercontent.com/93141881/174443620-5d1b273a-977d-4cb6-a795-83a8f201d68a.png">
+
     
     <img width="443" alt="image" src="https://user-images.githubusercontent.com/93141881/173605161-214c0343-5bc4-40ea-b240-552586330b5f.png">
     
