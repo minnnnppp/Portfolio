@@ -1,8 +1,11 @@
 ## 주제: 신경망 모델을 사용 financial sentiment analysis 
  
 #### 프로젝트 배경(선정 이유)
-- 기술적 이유(기술 스택, 분석 스킬): colab 환경, python을 기반으로 신경망 모델을 사용한 감성 예측 가능
+- 기술적 이유(기술 스택, 분석 스킬): 
   - 기술 스택: `colab`, `python`, `tensorflow`, `pytorch`, `matplotlib`, `seaborn`, `sklearn`, `transformers`, `nltk`, `LabelEncoder`, `Tokenizer`
+  
+  - `pytorch`를 사용한 이유: `tensorflow`로 `BERT` 모델을 구현하는 데 있어 tensor와 관련한 이슈가 지속적으로 발생하였고, 이를 결국 해결하지 못 하여 `pytorch`를 사용함
+
 - 개인적 이유(개인 목표, 커리어 관련): section 4 내용을 토대로 신경망을 활용한 모델과 transformer 모델을 직접 구현할 수 있음. 더불어 금융 시장은 사람들의 행동에 민감하게 변화하는데, 이러한 감성 분석이 가능하다면 시장의 흐름을 예측하는 데 도움이 될 것이라 예상됨.
 
 #### 데이터셋: https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis/code
