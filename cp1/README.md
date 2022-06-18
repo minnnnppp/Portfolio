@@ -1,8 +1,11 @@
 ## 주제: 국가별 기대수명에 대한 분석 및 예측 모델링
 
 #### 🔍 프로젝트 배경(선정 이유)
-- 기술적 이유(기술 스택, 분석 스킬): jupyter notebook 환경, python을 사용해 데이터 분석을 진행할 수 있음
-    - 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
+- 기술적 이유(기술 스택, 분석 스킬):
+    - 기술 스택: `jupyter notebook`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
+    - 통계 검정을 토대로 가설을 검정하기 위해 `scipy` 라이브러리 사용
+    - `matplotlib`, `seaborn`를 사용하여 데이터 시각화 진행
+
 - 개인적 이유(개인 목표, 커리어 관련): section 1에서 배운 통계 검정을 적용해볼 수 있으며, 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문에 선정
 
 #### 🔍 데이터셋: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
