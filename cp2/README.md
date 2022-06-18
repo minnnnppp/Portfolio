@@ -15,10 +15,10 @@
 - 박민경
     - 데이터 분석 관련 도메인 지식 학습, EDA 및 가설검정, Action plan 도출
     - `surprise` 패키지 이용한 모델과 `LightFM` 모델 구현 시도
-    - `word2vec` 사용한 `content-based` 모델 구현
+    - `word2vec` 사용한 `Content-Based model` 구현
 - 정호영
     - 데이터 분석 관련 도메인 지식 학습, EDA 및 `Funnel/Cohort` 분석, Action plan 도출
-    - `Baseline model` 및 `TF-IDF` 사용한 `Content-Based Model` 구현
+    - `Baseline model` 및 `TF-IDF` 사용한 `Content-Based model` 구현
 
 
 #### 🔍 데이터셋과 환경: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv
