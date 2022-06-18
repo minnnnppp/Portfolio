@@ -49,9 +49,10 @@
 
 #### 🔍 프로젝트 방법
 - 전처리: 
-    - `event_time`과 관련해 추가 feature engineering을 진행 
     - 결측치를 `unknown`으로 처리
     - 가격이 0이하인 데이터 제거
+    - `event_time`과 관련해 추가 feature engineering을 진행 
+  
 
 - 가설: 
  
