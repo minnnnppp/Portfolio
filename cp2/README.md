@@ -35,6 +35,11 @@
     - `user_id`: 유저 id
     - `user_session`: 유저의 세션 id
 
+- 구매 상위 20위의 상품 중 약 90%가 전자 및 가전 제품임
+    - 2019년 10월 판매된 아이템 중 스마트폰이 전체의 61.59%를 차지함
+<img width="253" alt="image" src="https://user-images.githubusercontent.com/93141881/174445328-237249d9-0f56-453a-b220-8f8708ebf93f.png">
+
+
 - 환경
     - 카자흐스탄의 자국 Ecommerce 1위 기업인 Kaspi.kz를 가정함
     - 카자흐스탄 Ecommerce 시장에서 의류/전자/가전 제품의 규모가 가장 크고 성장률도 높음
