@@ -109,4 +109,4 @@
     - `Word2Vec`을 사용한 `Content-Based model`: MAP@20: 0.001588630171801049 / NDCG@20: 0.005573220462657566
 
 
-    👉🏼 `TF-IDF`을 사용한 ``Content-Based model` 가장 좋은 성능을 보임
+    👉🏼 `Baseline model`이 가장 좋은 성능을 보임
