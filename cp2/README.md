@@ -4,7 +4,7 @@
 - 기술적 이유(기술 스택, 분석 스킬):
     - 기술 스택: `jupyter`, `python`, `pyarrow`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `scipy`, `gensim`, `collections`
     - 대용량 데이터를 `pyarrow` 를 통해 `parquet` 파일 형식으로 변환하여 용량에 대한 이슈를 해결함: 
-        - `sqlite`와 `MySQL`에 적재 시도: `sqlite`의 경우 데잍터를 불러오는 데 많은 시간이 소요되었고, `MySQL`의 경우 데이터 적재에 실패함
+        - `sqlite`와 `MySQL`에 적재 시도: `sqlite`의 경우 데이터를 적재하여 불러오기까지 많은 시간이 소요되었고, `MySQL`의 경우 데이터 적재에 실패함
         - 최종적으로 **`parquet`으로 변환하는 방법**을 선택함
     
 - 개인적 이유(개인 목표, 커리어 관련): 
