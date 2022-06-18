@@ -22,6 +22,9 @@
 
 
 #### 🔍 데이터셋과 환경: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store?select=2019-Oct.csv
+- 데이터: 2019년 10월 데이터 
+    - 2019.11~2020.04 데이터를 추가로 사용하여 코호트 분석 실시
+
 - 컬럼
     - `event_time`: 이벤트(=유저의 행동)가 일어난 시간
     - `event_type`: 이벤트 타입
