@@ -6,7 +6,8 @@
     - 통계 검정을 토대로 가설을 검정하기 위해 `scipy` 라이브러리 사용
     - `matplotlib`, `seaborn`를 사용하여 데이터 시각화 진행
 
-- 개인적 이유(개인 목표, 커리어 관련): 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있기 때문
+- 개인적 이유(개인 목표, 커리어 관련): 
+    - 긱국의 기대수명이 어떻게 다르고 어떤 요소가 영향을 미치고 있는지 파악
 
 #### 🔍 데이터셋: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
 - 컬럼
@@ -47,7 +48,7 @@
       3. 건강을 위한 지출이 증가할수록 기대수명은 늘어날 것이다.
 
 - 문제: 나라별 기대수명 예측하는 ML 모델링 
-- 모델: Linear Regression, Ridge Regression, Random Forest, XGBoost 사용 
+- 모델: `Linear Regression`,` Ridge Regression`, `Random Forest`, `XGBoost` 사용 
     - 평가지표로 R2 score(결정계수) 사용
 
 #### 🔍 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
@@ -69,7 +70,7 @@
     
 
     - 자료에 대한 해석: 
-        - 성능이 가장 뛰어났던 randomforest 모델에서 특성 중요도를 도출
+        - 성능이 가장 뛰어났던 `randomforest` 모델에서 특성 중요도를 도출
             - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
         
         - 특성 중요도와 시각화 자료를 토대로 기대 수명에는 아동의 건강과 의료기술의 발전이 지대한 영향을 미치고 있음을 파악함
@@ -79,9 +80,9 @@
             - 선진화를 통해 건강한 생활습관 및 위생 관념 정립을 교육을 통해 이루어져야 할 것
             
 - 예측 모델링 결과
-    - Linear Regression: 0.8529984574582457
-    - Ridge Regression: 0.8529984574582457
-    - **Random Forest Regressor: 0.9642667362864851**
-    - XGBoost Regressor:  0.9610947119687804
+    - `Linear Regression`: 0.8529984574582457
+    - `Ridge Regression`: 0.8529984574582457
+    - `**Random Forest Regressor`: 0.9642667362864851**
+    -` XGBoost Regressor`:  0.9610947119687804
   
-    👉🏼 Random Forest Regressor가 가장 좋은 성능을 보임
+    👉🏼 `Random Forest Regressor`가 가장 좋은 성능을 보임
