@@ -5,14 +5,14 @@
     - Ecommerce 로그 데이터를 가지고 유저에 대한 분석과 추천 모델에 대한 프로젝트 경험이 없음
     - 데이터 분석가로서 로그 데이터 분석과 추천시스템을 직접 구현하여 성과를 도출하기 위해 해당 프로젝트 진행
 
-- 기술 스택: `jupyter`, `python`, `pyarrow`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `scipy`, `gensim`, `collections`
+- 기술 스택: `python`, `pyarrow`, `matplotlib`, `seaborn`, `plotly`, `sklearn`, `scipy`, `gensim`, `collections`
     - `plotly`: `Funnel` 분석에 대한 시각화를 위해 사용
     - `pyarrow`: 대용량 데이터를 `parquet` 파일 형식으로 변환하여 처리하는 과정에서 사용
         - `sqlite`와 `MySQL`에 적재 시도: `sqlite`의 경우 데이터를 적재하여 불러오기까지 많은 시간이 소요되었고, `MySQL`의 경우 데이터 적재에 실패함
         - 최종적으로 **`parquet`으로 변환하는 방법**을 선택해 데이터 크기에 대한 이슈를 해결
 
 
-#### 🔍 팀 내 수행한 역할
+#### 🔍 팀 내 수행 역할
 - 박민경
     - 데이터 분석 관련 도메인 지식 학습, EDA 및 가설검정, Action plan 도출
     - `surprise` 패키지 이용한 모델과 `LightFM` 모델 구현 시도
@@ -44,7 +44,8 @@
 
 
 - 환경
-    - 카자흐스탄의 자국 Ecommerce 1위 기업인 Kaspi.kz를 가정함
+    - 구매 상위 브랜드 중 생소한 브랜드를 카자흐스탄 이커머스에서 가장 많이 찾아볼 수 있었음
+    - 이를 토대로 카자흐스탄의 자국 Ecommerce 1위 기업인 Kaspi.kz를 가정함
         - 카자흐스탄 Ecommerce 시장에서 의류/전자/가전 제품의 규모가 가장 크고 성장률도 높음
         - 뿐만 아니라 주로 도심과 젊은 층 + 모바일 플랫폼 중심으로 Ecommerce 시장이 활성화 + Ecommerce 관련 인프라가 상대적으로 부족함
         - 모바일 구매 비율이 약 65%로 상당히 높음
@@ -54,8 +55,8 @@
     - 결측치를 `unknown`으로 처리
     - 가격이 0이하인 데이터 제거
     - `event_time`과 관련해 추가 feature engineering을 진행 
+        - event_month, event_day, day_of_week, event_hour, event_week의 컬럼 추가 생성
   
-
 - 가설: 
  
       1. 주말/주중에 따라 구매 전환율은 차이가 날 것이다.
@@ -66,11 +67,12 @@
 - 문제: 데이터 분석 결과를 토대로 Action Plan 도출 및 추천시스템 구현
 
 - 모델: 
-    - `Baseline model`: 이벤트가 가장 많은 상위 20개의 상품을 일괄적으로 추천하는 통계 기반 모델을 설정 
+    - `Baseline model`: 이벤트가 가장 많은 상위 20개의 상품을 일괄적으로 추천하는 모델을 설정 
     - 성능 개선 모델: `TF-IDF`와 `Word2Vec`을 사용한 `Content-Based model`
         1. `TF-IDF`을 사용한 `Content-Based model`: 각 상품의 메타정보(category_code, brand 등)를 활용하여 `cosine` 유사도를 계산해 유사도가 높은 순으로 유저별 20개의 상품 추천
         2. `Word2Vec`을 사용한 `Content-Based model`: `doc2vec`를 사용해 각 상품의 product_id와 category_code 벡터화하고, 상품별 유사도를 기준으로 유저가 본 상품과 연관성이 높은 20개의 상품 추천
     - 평가지표로 랭킹 기반에 사용되는 `MAP@K`, `NDCG@K` 사용
+ 
 
 #### 🔍 프로젝트 결과
 - 분석 결과
@@ -78,8 +80,7 @@
     - 시각화 자료
     <img width="556" alt="image" src="https://user-images.githubusercontent.com/93141881/174443601-bb06a71d-d3f4-4e9d-8383-2eb1e838ec66.png">
 
-    
-    <img width="737" alt="image" src="https://user-images.githubusercontent.com/93141881/173604551-f89eb9f8-09d1-49a6-8b43-4c91c7c741f5.png">
+    ![image](https://user-images.githubusercontent.com/93141881/174490907-561fbf6e-1a9f-4717-979e-05d34f9e83a9.png)
     
     <img width="673" alt="image" src="https://user-images.githubusercontent.com/93141881/173604618-ef8506f5-2729-4023-93cd-0c46e2506805.png">
     
