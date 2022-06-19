@@ -79,6 +79,9 @@
 
     - 시각화 자료
     <img width="556" alt="image" src="https://user-images.githubusercontent.com/93141881/174443601-bb06a71d-d3f4-4e9d-8383-2eb1e838ec66.png">
+    
+    ![image](https://user-images.githubusercontent.com/93141881/174496182-c5b7b891-2b18-407f-b1ed-05d52970da6e.png)
+
 
     ![image](https://user-images.githubusercontent.com/93141881/174490907-561fbf6e-1a9f-4717-979e-05d34f9e83a9.png)
     
