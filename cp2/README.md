@@ -38,7 +38,7 @@
         - `user_session`: 유저의 세션 id
 
     - 특이사항
-        - 구매 상위 20위의 상품 중 약 90%가 전자 및 가전 제품임
+        - 구매 상위 20위의 상품 중 50% 이상이 전자/가전제품
         - 2019년 10월 판매된 아이템 중 스마트폰이 전체의 61.59%를 차지함
         <img width="253" alt="image" src="https://user-images.githubusercontent.com/93141881/174445328-237249d9-0f56-453a-b220-8f8708ebf93f.png">
 
@@ -52,17 +52,17 @@
 
 #### 🔍 프로젝트 방법
 - 전처리: 
-    - 결측치를 `unknown`으로 처리
-    - 가격이 0이하인 데이터 제거
+    - 결측치를 `unknown`으로 대체하여 처리
+    - 가격이 0 이하인 데이터를 제거하여 처리
     - `event_time`과 관련해 추가 feature engineering을 진행 
-        - event_month, event_day, day_of_week, event_hour, event_week의 컬럼 추가 생성
+        - `event_month`, `event_day`, `day_of_week`, `event_hour`, `event_week`의 컬럼 추가 생성
   
 - 가설: 
  
       1. 주말 구매전환율은 주중 구매 전환율보다 높을 것이다.
       2. 사이트에 오래 머물수록 구매 전환율이 더 높을 것이다.
-      3. brand가 있는 상품일 경우의 평균 구매 전환율이 없는 상품일 경우보다 더 높을 것이다.
-      4. categorized가 잘 되어 있지 않은 상품의 View 수는 잘 되어 있는 상품보다 더 적을 것이다.
+      3. brand가 있는 상품일 경우의 평균 구매 전환율은 브랜드가 없는 상품보다 더 높을 것이다.
+      4. categorized가 되어 있지 않은 상품의 View 수는 categorized되어 있는 상품보다 더 적을 것이다.
 
 - 문제: 데이터 분석 결과를 토대로 Action Plan 도출 및 추천시스템 구현
 
