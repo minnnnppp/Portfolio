@@ -4,5 +4,5 @@
 - Section1️ ~ 4 Project 
 - CP1, 2 Project
 ----------------------------
-
+# 2. 개인 Project (진행 예정)
 
