@@ -1,13 +1,14 @@
 ## 주제: 폐암 사전 자가 진단 웹서비스 개발
 
 #### 프로젝트 배경(선정 이유)
-- 기술적 이유(기술 스택, 분석 스킬): colab 환경, python, metabase, flask를 활용해 웹 어플리케이션 서비스를 제공할 수 있음
-  - 기술 스택: `colab`, `python`, `sqlite`, `matplotlib`, `seaborn`, `sklearn`, `OrdinalEncoder`, `Metabase`, `Flask`, `Heroku`
-  - section3에서 학습한 라이브러리와 툴을 사용함
+- 기술적 이유:
   - `Flask`를 사용한 이유: 구현하고자 하는 웹 어플리케이션이 매우 간단한 어플리케이션이기 때문
     - `Flask`: `Django`에 비해 매우 가벼운 web framework이며 기본 기능만 제공
 
 - 개인적 이유(개인 목표, 커리어 관련): 발병하기 어려운 폐암에 대해 경각심을 일깨울뿐만 아니라 폐암 조기 발병으로 인해 완치율을 높일 수 있는 웹 어플리케이션 서비스를 제공할 수 있음
+
+#### 기술 스택
+- `colab`, `python`, `sqlite`, `matplotlib`, `seaborn`, `sklearn`, `OrdinalEncoder`, `Metabase`, `Flask`, `Heroku`
 
 #### 데이터셋: https://www.kaggle.com/h13380436001/h-lung-cancer
 - 컬럼
