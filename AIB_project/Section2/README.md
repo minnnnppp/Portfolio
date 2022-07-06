@@ -1,14 +1,12 @@
-## 주제: ML 모델을 사용해 데이터를 토대로 소득이 $50000 넘는지 예측해보기
+## 주제: ML 모델을 사용해 개인 소득이 $50000 넘는지 예측
 
 #### 프로젝트 배경(선정 이유)
-- 기술적 이유(기술 스택, 분석 스킬): 
-  - 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `OrdinalEncoder`, `PermutationImportance`, `pdpbox`, `shap`
-  - section 2에서 학습한 라이브러리를 사용하여 ML 모델을 구현하고자 해당 기술 스택을 사용함
-  - `OrdinalEncoder`를 사용한 이유: 
-    - `OneHotEncoder`의 경우 불필요하게 컬럼이 많아짐
-      - 이 경우에는 수치형 특성이 상위노드를 차지할 기회가 높아지면서 모델의 성능 저하가 발생할 수 있음
 
-- 개인적 이유(개인 목표, 커리어 관련): section 2에서 배운 다양한 머신러닝 모델을 구현할 수 있음. 또한 기업의 입장에서 신용카드 발급이나 금융 상품 판매 시 고객의 소득이 $50000를 넘는지를 파악해 그에 맞는 상품 추천을 할 수 있을 것이라 생각됨
+- section 2에서 배운 다양한 머신러닝 모델을 구현할 수 있음
+- 또한 기업의 입장에서 신용카드 발급이나 금융 상품 판매 시 고객의 소득이 $50000를 넘는지를 파악해 그에 맞는 상품 추천을 할 수 있을 것이라 생각됨
+
+#### 기술 스택:
+- 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `OrdinalEncoder`, `PermutationImportance`, `pdpbox`, `shap`
 
 #### 데이터셋: https://www.kaggle.com/vardhansiramdasu/income
 - 컬럼
