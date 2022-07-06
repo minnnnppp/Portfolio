@@ -1,12 +1,11 @@
 ## 주제: 비디오 게임 데이터와 다음 분기에 출시해야 할 비디오 게임에 대한 분석
 
 #### 프로젝트 배경(선정 이유)
-- 기술적 이유(기술 스택, 분석 스킬): 
-    - 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
-    - section 1에서 학습한 라이브러리를 직접 사용하여 EDA 진행하기 위해 위의 라이브러리를 사용함
-- 개인적 이유(개인 목표, 커리어 관련): 
-    - ection 1에서 배운 통계 검정을 적용해볼 수 있음
-    - 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있을 것이라 생각함
+- ection 1에서 배운 통계 검정을 적용해볼 수 있음
+- 기업의 관점에서 어떤 게임을 출시하는 것이 좋을지 분석함으로써 데이터 분석 역량을 좀 더 키울 수 있을 것이라 생각함
+
+#### 기술 스택:
+- 기술 스택: `colab`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
 
 #### 데이터셋: https://drive.google.com/file/d/1XnswYGySzrdUzuBst0L63XuWuMRJbLvH/view?usp=sharing
 - 컬럼
