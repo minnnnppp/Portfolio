@@ -1,10 +1,10 @@
 ## 주제: 국가별 기대수명에 대한 분석 및 예측 모델링
 
-#### 🔍 프로젝트 배경(선정 이유)
-- 개인적 이유(개인 목표, 커리어 관련): 
+
+#### 🔍 프로젝트 배경
+- 프로젝트 선정 이유(개인 목표, 커리어 관련): 
     - 긱국의 기대수명이 어떻게 다르고 어떤 요소가 영향을 미치고 있는지 파악
-#### 기술 스택
-- `jupyter notebook`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
+- 기술 스택: `jupyter notebook`, `python`, `matplotlib`, `seaborn`, `sklearn`, `scipy`
 
 #### 🔍 데이터셋: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?datasetId=12603&sortBy=voteCount
 - 컬럼
