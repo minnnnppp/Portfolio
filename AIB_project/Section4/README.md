@@ -3,8 +3,8 @@
 
 #### 🔍 프로젝트 배경
 - 프로젝트 선정 이유(개인 목표, 커리어 관련): 
- - section 4 내용을 토대로 신경망을 활용한 모델과 transformer 모델을 직접 구현할 수 있음. 
- - 더불어 금융 시장은 사람들의 행동에 민감하게 변화하는데, 이러한 감성 분석이 가능하다면 시장의 흐름을 예측하는 데 도움이 될 것이라 예상됨.
+   - section 4 내용을 토대로 신경망을 활용한 모델과 transformer 모델을 직접 구현할 수 있음. 
+   - 더불어 금융 시장은 사람들의 행동에 민감하게 변화하는데, 이러한 감성 분석이 가능하다면 시장의 흐름을 예측하는 데 도움이 될 것이라 예상됨.
 
 - 기술 스택: `colab`, `python`, `tensorflow`, `pytorch`, `matplotlib`, `seaborn`, `sklearn`, `transformers`, `nltk`, `LabelEncoder`, `Tokenizer`
 
