@@ -82,4 +82,4 @@
     - **`Random Forest Regressor`: 0.9642667362864851**
     - `XGBoost Regressor`:  0.9610947119687804
   
-    👉🏼 `Random Forest Regressor`가 가장 좋은 성능을 보임
+    👉🏼 `Randomforest Regressor`가 가장 좋은 성능을 보임
