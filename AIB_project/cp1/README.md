@@ -76,6 +76,6 @@
     - `Linear Regression`: 0.8559515731374612
     - `Ridge Regression`: 0.8559515731374612
     - `Randomforest Regressor`: 0.9933360441826822
-    - `XGBRegressor`: 0.9969385974590549
+    - `XGBRegressor`: 0.9992083390007229
   
     👉🏼 `XGBRegressor`가 가장 좋은 성능을 보임
