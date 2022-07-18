@@ -50,8 +50,7 @@
 #### 프로젝트 결과 - 웹 어플리케이션 구현
 <img width="942" alt="스크린샷 2022-06-14 18 35 25" src="https://user-images.githubusercontent.com/93141881/173547451-fa078bc7-eafe-4d9a-af79-c5140a92b815.png">
 
-- 구현 영상 링크: https://![Uploading 스크린샷 2022-06-08 09.17.25.png…]()
-drive.google.com/file/d/1XBSWS8cvC2TMiZj3BMGwTPougRX9O-40/view?usp=sharing
+- 구현 영상 링크: https://drive.google.com/file/d/1XBSWS8cvC2TMiZj3BMGwTPougRX9O-40/view?usp=sharing
 
   **(영상에는 배포가 나와있지 않습니다. 영상 촬영 후 이후에 heroku를 사용한 배포를 시도하여 성공했습니다.)**
 
