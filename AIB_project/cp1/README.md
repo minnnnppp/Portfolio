@@ -79,7 +79,7 @@
 - 예측 모델링 결과
     - `Linear Regression`: 0.8529984574582457
     - `Ridge Regression`: 0.8529984574582457
-    - `**Random Forest Regressor`: 0.9642667362864851**
-    -` XGBoost Regressor`:  0.9610947119687804
+    - **`Random Forest Regressor`: 0.9642667362864851**
+    - `XGBoost Regressor`:  0.9610947119687804
   
     👉🏼 `Random Forest Regressor`가 가장 좋은 성능을 보임
