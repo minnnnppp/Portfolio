@@ -62,10 +62,7 @@
     
     <img width="365" alt="image" src="https://user-images.githubusercontent.com/93141881/173583638-e126e4ee-90b8-43b0-b9c0-ed1098672f3e.png">
     
-    ![image](https://user-images.githubusercontent.com/93141881/173590439-0a1bb5a0-2256-4746-a564-89149d95cf5b.png)
     
-    
-
     - 자료에 대한 해석: 
         - 성능이 가장 뛰어났던 `randomforest` 모델에서 특성 중요도를 도출
             - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
