@@ -77,10 +77,10 @@
         - 다양한 질병으로부터 선제적 보호 조치를 받고 있지 못하는 아동들에게 범국가적 차원의 조치가 필요
         - 선진화를 통해 건강한 생활습관 및 위생 관념 정립을 교육을 통해 이루어져야 할 것
             
-- 예측 모델링 결과
-    - `Linear Regression`: 0.8529984574582457
-    - `Ridge Regression`: 0.8529984574582457
-    - **`Random Forest Regressor`: 0.9642667362864851**
-    - `XGBoost Regressor`:  0.9610947119687804
+- 예측 모델링 결과: R2 score
+    - `Linear Regression`: 0.8559515731374612
+    - `Ridge Regression`: 0.8559515731374612
+    - `Random Forest Regressor`: 0.9933360441826822
+    - `XGBoost Regressor`: 0.9969385974590549
   
-    👉🏼 `Randomforest Regressor`가 가장 좋은 성능을 보임
+    👉🏼 `XGBoost Regressor`가 가장 좋은 성능을 보임
