@@ -52,8 +52,10 @@
 - 분석 결과
 
     - 시각화 자료
-    <img width="861" alt="image" src="https://user-images.githubusercontent.com/93141881/173583551-de8e5c22-967e-4770-86f8-b5315c60021a.png">
+    ![output](https://user-images.githubusercontent.com/93141881/179507565-22fb4112-f16d-43d5-9bdf-3510aadba88f.png)
     
+    ![outputs](https://user-images.githubusercontent.com/93141881/179507661-c15cb2c4-dcbe-43fb-b3c8-18b7da981f65.png)
+
     <img width="570" alt="image" src="https://user-images.githubusercontent.com/93141881/173583299-ac154c36-df34-41b6-954e-2df4b45c8999.png">
 
     <img width="369" alt="image" src="https://user-images.githubusercontent.com/93141881/173583750-b6e5a16b-bc71-4c8c-bb29-95787c24ffd2.png">
