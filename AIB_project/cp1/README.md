@@ -26,8 +26,8 @@
     - `HIV/AIDS`: 5세 미만 아동 hiv/aids 사망건수
     - `GDP`: 국내총생산
     - `Population`: 인구
-    - `thinness 1-19 years`: 5~9세 아동인구 대비 저체중 아동의 비율
-    - `thinness 5-9 years`: 10~19세 아동인구 대비 저체중 아동의 비율
+    - `thinness 1-19 years`: 10~19세 아동인구 대비 저체중 아동의 비율
+    - `thinness 5-9 years`: 5~9세 아동인구 대비 저체중 아동의 비율
     - `Income composition of resources`: HDI(각국의 인간 발전 정도와 선진화 정도를 평가한 지수)
     - `Schooling`: 교육수준
 
@@ -46,7 +46,7 @@
 
 - 문제: 나라별 기대수명 예측
 - 모델: `Linear Regression`,` Ridge Regression`, `Randomforest Regressor`, `XGBRegressor` 사용 
-    - 평가지표로 R2 score 사용
+    - 평가지표로 `R2 score` 사용
 
 #### 🔍 프로젝트 결과 - Action Plan에 관련된 중요한 인사이트 위주 시각화 
 - 분석 결과
@@ -64,10 +64,9 @@
     
     
     - 자료에 대한 해석: 
-        - 성능이 가장 뛰어났던 `randomforest` 모델에서 특성 중요도를 도출
-            - hiv/aids 사망률과 성인 사망률, HDI 순으로 가장 중요도가 높음 
-        
-        - 특성 중요도와 시각화 자료를 토대로 기대 수명에는 아동의 건강과 의료기술의 발전이 지대한 영향을 미치고 있음을 파악함
+        - heatmap을 통해 hdi, 교육수준, 성인 사망률, 5세 미만 아동 hiv/aids 사망률. 5~19세 아동인구 대비 저체중 아동의 비율 순으로 기대 수명과 강한 상관관계를 가지고 있음을 파악함
+        - 국가별 status에 따라 평균 기대 수명에 차이가 있음
+        - 매변 5세 미만 아동 hiv/aids 사망률은 지속적으로 감소하고 있음
 
     - Action Plan: 
             
@@ -77,7 +76,7 @@
 - 예측 모델링 결과: R2 score
     - `Linear Regression`: 0.8559515731374612
     - `Ridge Regression`: 0.8559515731374612
-    - `Random Forest Regressor`: 0.9933360441826822
-    - `XGBoost Regressor`: 0.9969385974590549
+    - `Randomforest Regressor`: 0.9933360441826822
+    - `XGBRegressor`: 0.9969385974590549
   
-    👉🏼 `XGBoost Regressor`가 가장 좋은 성능을 보임
+    👉🏼 `XGBRegressor`가 가장 좋은 성능을 보임
