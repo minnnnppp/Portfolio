@@ -5,7 +5,6 @@ import sqlite3
 from sklearn.metrics import f1_score, accuracy_score, plot_confusion_matrix, classification_report, roc_curve, roc_auc_score
 from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.pipeline import make_pipeline, Pipeline
-from category_encoders import OrdinalEncoder
 from catboost import CatBoostClassifier
 
 conn = sqlite3.connect("/Users/minky/Desktop/sec3/DB/project.db")
@@ -49,7 +48,6 @@ y_val = val[target]
 
 # catboost model
 pipe_cat = make_pipeline(
-    OrdinalEncoder(),
     CatBoostClassifier(random_state=2))
 
 pipe_cat.fit(X_train, y_train)
