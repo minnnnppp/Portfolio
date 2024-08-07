@@ -55,20 +55,24 @@
     3. 결과
         - 테스트 데이터의 f1 score는 훈련/검증 데이터의 f1 score와 큰 차이를 보이지 않았기 때문에 모델 학습에서 과적합이 발생하지 않았고, 학습이 상당 부분 일반화되었음을 확인
 
-   - 시각화 자료
-   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534330-b53bb744-fba7-4077-a2a7-9e1edb5c2705.png">
+   <details>
+      <summary>시각화 자료</summary>
+        <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534330-b53bb744-fba7-4077-a2a7-9e1edb5c2705.png">
    
-   ![image](https://user-images.githubusercontent.com/93141881/173534589-922b84e9-8b1e-45e8-9a3a-59085f296744.png)
-   
-   ![image](https://user-images.githubusercontent.com/93141881/173534521-0d28a50e-1ada-4cf3-8e40-10b6e124f201.png)
-   
-   ![image](https://user-images.githubusercontent.com/93141881/173534652-ec851054-8ed9-4d98-ab8f-19b12b2ceb3d.png)
-   
-   ![image](https://user-images.githubusercontent.com/93141881/173534696-5fb70fee-702e-4356-be0b-9458c947593c.png)
-   
-   ![image](https://user-images.githubusercontent.com/93141881/173534958-49ab4343-ae38-4594-8261-780489b67172.png)
-   
-   ![image](https://user-images.githubusercontent.com/93141881/173535013-f6bbac6e-09c3-405e-9787-50650eb0f093.png)
+       ![image](https://user-images.githubusercontent.com/93141881/173534589-922b84e9-8b1e-45e8-9a3a-59085f296744.png)
+       
+       ![image](https://user-images.githubusercontent.com/93141881/173534521-0d28a50e-1ada-4cf3-8e40-10b6e124f201.png)
+       
+       ![image](https://user-images.githubusercontent.com/93141881/173534652-ec851054-8ed9-4d98-ab8f-19b12b2ceb3d.png)
+       
+       ![image](https://user-images.githubusercontent.com/93141881/173534696-5fb70fee-702e-4356-be0b-9458c947593c.png)
+       
+       ![image](https://user-images.githubusercontent.com/93141881/173534958-49ab4343-ae38-4594-8261-780489b67172.png)
+       
+       ![image](https://user-images.githubusercontent.com/93141881/173535013-f6bbac6e-09c3-405e-9787-50650eb0f093.png)
+
+    </details>
+
 
    - 자료에 대한 해석: 
       - 순열중요도: 결혼 여부, 교육 수준, 나이, 자본 이익 및 총합계 순으로 개인 소득이 $50000를 넘는지에 대해 크게 작용하고 있음을 파악함
