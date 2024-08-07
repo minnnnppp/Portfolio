@@ -58,18 +58,12 @@
    <details>
       <summary>시각화 자료</summary>
         <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534330-b53bb744-fba7-4077-a2a7-9e1edb5c2705.png">
-   
-       ![image](https://user-images.githubusercontent.com/93141881/173534589-922b84e9-8b1e-45e8-9a3a-59085f296744.png)
-       
-       ![image](https://user-images.githubusercontent.com/93141881/173534521-0d28a50e-1ada-4cf3-8e40-10b6e124f201.png)
-       
-       ![image](https://user-images.githubusercontent.com/93141881/173534652-ec851054-8ed9-4d98-ab8f-19b12b2ceb3d.png)
-       
-       ![image](https://user-images.githubusercontent.com/93141881/173534696-5fb70fee-702e-4356-be0b-9458c947593c.png)
-       
-       ![image](https://user-images.githubusercontent.com/93141881/173534958-49ab4343-ae38-4594-8261-780489b67172.png)
-       
-       ![image](https://user-images.githubusercontent.com/93141881/173535013-f6bbac6e-09c3-405e-9787-50650eb0f093.png)
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534589-922b84e9-8b1e-45e8-9a3a-59085f296744.png">
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534521-0d28a50e-1ada-4cf3-8e40-10b6e124f201.png">
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534652-ec851054-8ed9-4d98-ab8f-19b12b2ceb3d.png">
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534696-5fb70fee-702e-4356-be0b-9458c947593c.png">
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173534958-49ab4343-ae38-4594-8261-780489b67172.png">
+   <img width="229" alt="스크린샷 2022-06-14 17 42 55" src="https://user-images.githubusercontent.com/93141881/173535013-f6bbac6e-09c3-405e-9787-50650eb0f093.png">
 
     </details>
 
